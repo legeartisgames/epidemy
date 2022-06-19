@@ -1,0 +1,14 @@
+«Epidemy: The Outbreak» is:
+* a game about fighting an epidemic in the modern world
+* a semi-boardgame with unique open multiplier mechanics. As a rule, you know or can calculate all the parameters of the epidemic (but usually only an understanding of the game situation is enough for winning).
+* 27 cards of various methods. Methods are the main ways to fight the epidemic. This can be quarantines, mask regime, investment in research, tax increases, even propaganda and distorting of statistics.
+* 4 infections: bubonic plague, smallpox, swine influenza and, of course, covid-19 + a mode in which you do not know anything about the parameters of the spread of the epidemic
+* 7 game modes: common and 6 special. For example, in one mode you will have to monitor the epidemic in the capital very carefully so that the capital does not revolt.
+* 13 countries, including US, Russia and Germany. Countries in the game are composed of regions represented by hexes.
+* 364 different combinations of country, mode and infection! + many options for winning. You will definitely not get bored!
+* progress: earn gold and foreign exchange reserves and reputation stars to unlock new countries or methods. You receive daily rewards and awards for the games you play.
+* epidemiological app design and atmospheric soundtrack
+* interactive options: build charts for a country or a specific region according to the parameters you are interested in (there are 8 types of charts)
+* meticulously described and detailed rules: 12 sections of rules + 6 supplements + tutorial presentation!
+
+Duration of one party = 15-30 minutes.
