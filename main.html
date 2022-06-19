@@ -1,107 +1,81 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
-    <title>Legeartis Games</title>
-  </head>
+<head>
+	<meta charset="UTF-8">
+	<title>Эпидемия.Начало</title>
+	<link rel="stylesheet" href="epidemya-style.css">
+	<!-- CSS only -->
+	<!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"-->
+	<!-- JavaScript Bundle with Popper -->
+	<!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script-->
 
-  <body>
-    <header class="page-header">
-	<div class="container">
-	    Epidemy: your first step.
-	</div>
-    </header>
-    <main>
-    
-    <section class="hero-image">
-	<div class="container">
-      	<h1 class="heading ">Legeartis Games</h1>
-      	<p id ="hbdescr">Post-epidemic game studio</p>
-	</div>
-    </section>
+    <!--link rel="stylesheet" href="borders.css"-->
 
-    <section class="intro">
-
-        <nav class="container">
-
-		    <figure class="user-image">
-                <a href="news.html" class = "cute-ref">
-			    <img src="files/Epidemy/covid.png" width="100" alt="Covid-19">
-                <p>Our news</p>
-                </a>
-                
-		    </figure>
-            
-        </nav>
-		
-        <div class="container">
-			<h2 class="subheading">We and you</h2>
-			<h3>About us</h3>
-			<p>Up-and-coming game studio (est. 2020).</p>
-			<h3>What we do.</h3>
-			<p>"<a href="https://play.google.com/store/apps/details?id=com.legeartisgames.epidemy" class="white-ref">Epidemy: The Outbreak</a>" 
-			is our only game for now. But you will see new games one day! May be not only mobile or for computer.</p>
-			<h3>About you</h3>
-			<p>We suppose you are an experienced player, strategic genius, etc.</p>
-			<h3>What you (are supposed to) do</h3>
-			<p>You made good when chose our studio. We appreciate your support!</p>
-		
-		<div class="skills">
-			<h3>Our strength</h3>
-			<dl class="skills-list">
-				<dt class="skill-html">Realistic mechanisms</dt>
-				<dd class="level"><div style="width: 95%;">95%</div></dd>
-				
-				<dt class="skill-css">Deepness of play process</dt>
-				<dd class="level"><div style="width: 80%;">80%</div></dd>
-				
-				<dt class="skill-css">Design</dt>
-				<dd class="level"><div style="width: 20%;">20%</div></dd>
-				<dd>Although we do hope that nevertheless you will like our game!</dd>
-			</dl>
+    <script type="text/javascript" src="F:/Epidemy/site_exists.js">lifeSite();</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<ul class="bar" type="none" >
+			<li><a href="" >новости</a></li>
+			<li><a href="http://www.epidemy.tk">галерея</a></li>
+			<li><a href="http://www.epidemy.tk">игровые данные</a></li>
+			<li><a href="http://www.epidemy.tk">файлы</a></li>
+			<li><a href="http://www.epidemy.tk">история</a></li>
+		</ul>
+		<div class="logo">
+			<a href="http://www.epidemy.tk/"><img src="http://www.epidemy.tk/images/covid.png" ></a>
+			<h1>Эпидемия. Начало</h1>
+            <span class="empty_space"></span>
 		</div>
+	</header>
+	<main>
+		<h2>Добро пожаловать в мир Эпидемии!</h2>
+		<p>Подробное описание для новых пользователей.
+			Подробное описание для новых пользователей.
+			Подробное описание для новых пользователей.
+			Подробное описание для новых пользователей. Что еще надо сделать:
+			(1) доделать внешний вид главной страницы по ТЗ 
+			(2) проработать интерфейс : при наводке мыши - подсветка, и тд. 
+			(3) сделать работающие ссылки 
+			(4) сделать по образу и подобию другие страницы кроме платежной 
+			(5) показать Леше</p>
+		<div class="advert">
+			<h3>Epidemy: The Outbreak</h3>
+            <img src="https://sun9-1.userapi.com/sun9-67/impf/AyJZ0TVWzamKD7YZgiQZFHLeAQ5otqQoiGbclQ/1Ol0NN2pygo.jpg?size=807x403&quality=96&sign=76d86964a19f43e22f1409c31bc94d75&type=album">
+		    <p>Это первый слайд карусели. Планируется сделать так, чтобы данный текст листался вместе с каруселью. Это будет описание одного из преимуществ игры.</p>
+        </div>
+		<h2>Важные новости</h2>
+		<ul type="none" class="news">
+            <li><p><span class="new-date">&#8195 30.03.2022 &#8195</span> Подготовлена основа для карусели.
+                Также решил повозиться со шрифтом и размерами заголовков. КР кстати тоже не было.</p></li>
+            <li><p><span class="new-date">&#8195 23.03.2022 &#8195</span> КР не было.</p></li>
+			<li><p><span class="new-date">&#8195 16.03.2022 &#8195</span> Историк сказал что через две недели будет КР.</p></li>
+			<li><p><span class="new-date">&#8195 26.04.2022 &#8195</span> Должна быть завершена окончательная (?) версия главной страницы.</p></li>
+		</ul>
+		<div class="counter">
+			<p>Этот сайт существует уже <code>123</code> не знаю сколько времени, надо сделать нормальный счетчик дней</p>
 		</div>
-    </section>
-
-    <section class="portfolio">
-		<h2 class="subheading">Our works</h2>
-		
-		
-		<div class="container">
-			<h3 style="margin-top: 2em">This Site</h3>
-			<p>Here you can learn everything about us and our products (i.e. games).</p>
-			
-			
-			<h3 style="margin-top: 2em"><a href="epidemy.html" class = "cute-ref">"Epidemy: The Outbreak"</a></h3>
-			<p>Mobile single-player strategy where you try to stop spreading of virus or bacteria epidemic.
-			   Click <a href="epidemy.html" class = "white-ref">here</a> for more info.</p>
-            <figure class="project-image">
-				<img src="files/Epidemy/main-screen.jpg" width="928" alt="Epidemy: The Outbreak screen">
-			</figure>
-			            
-            <a class="button" href="https://play.google.com/store/apps/details?id=com.legeartisgames.epidemy">Epidemy on Google Play</a>
-            
-            
-			<h3 style="margin-top: 2em">That Site</h3>
-			<p>Here you can learn everything about the game</p>
-			<a class="button" href="http://epidemy.tk">Epidemy site</a>
-
-			
-			
+		<h2>Скачать в один клик</h2>
+		<p>Описание того, что скачается в один клик. Описание того, что скачается в один клик.
+			Описание того, что скачается в один клик. Описание того, что скачается в один клик. Кнопка - зеленая, при наведении подсвечивается. Нужна картинка. Одна кнопка по центру.</p>
+		<div class="download">
+			<button type="button">&dArr; скачать вирус &dArr;</button>
+			<p>*Версия 02-49. <br>Подходит для нокиа 3310.</p>
 		</div>
-		
-    </section>
-    </main>
+	</main>
+	<footer>
+        <img src="http://www.epidemy.tk/images/covid.png" class="img-1">
+        <p class="copyright">&#169 AlexLegeartis Games</p>
+        <ul type="none" class="contacts">
+            <li>exapmle@epidemya.com</li>
+            <li>+8(800)555-35-35</li>
+            <li><a href="https://vk.com/epidemy_inception">эпидемия в ВК</a></li>
+       	</ul>
 
-    <footer class="page-footer">
-      <div class="container">
-		Our contacts:
-		<a href="mailto: legeartisgames@gmail.com" class="footer-email">legeartisgames@gmail.com</a>
-	  </div>
-    </footer>
-	
-  <script src="script.js"></script>
-  </body>
+        <img src="http://www.epidemy.tk/images/covid.png" class="img-2">
+	</footer>
+</body>
 </html>
